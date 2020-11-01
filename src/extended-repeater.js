@@ -21,7 +21,6 @@ module.exports = function repeater(str, options) {
         addStr = `${addStr}${additionSeparator}${addition}`;
       }
     }
-  //console.log(addStr);
   return addStr;
   }
   
@@ -38,7 +37,6 @@ module.exports = function repeater(str, options) {
     }
 
   }
-
-  //console.log(newStr);
+  
   return newStr;  
 };
