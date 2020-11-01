@@ -10,8 +10,6 @@ module.exports = function createDreamTeam(members) {
                         .map(name => name.trim()[0].toUpperCase())
                         .sort()
                         .join('');
-
-  console.log(teamName);
   return teamName;
 
 };
